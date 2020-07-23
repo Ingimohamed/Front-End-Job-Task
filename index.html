@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <img src="images/logo.png" class="navbar-brand" alt="logo" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Features <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+          </ul>
+          <!-- 2nd UL -->
+          <hr />
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <button
+                class="loginBtn btn my-2 mr-5 mr-xs-0 my-sm-0"
+                type="submit"
+              >
+                Login
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="signupBtn btn my-2 my-sm-0" type="submit">
+                Sign Up
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Nav Bar -->
+
+    <!-- Start Main -->
+    <main>
+      <!-- Start Header Section -->
+      <section id="headerSection">
+        <div class="container pad-y">
+          <div class="row row-mobile">
+            <div class="col-md-6">
+              <h1 class="display-3">
+                More than just <span class="new-line">shorter links</span>
+              </h1>
+              <p>
+                Build your brand's recognition and get detailed
+                <span class="new-line">
+                  insights on how your links are performing
+                </span>
+              </p>
+              <button class="btn getstartedBtn">Get Started</button>
+            </div>
+            <div class="col-md-6 col-img-mobile">
+              <img
+                src="images/illustration-working.png"
+                alt="illustration-working"
+                class="width"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Header Section -->
+
+      <!-- Start Advanced Section -->
+      <section id="advancedSection">
+        <div class="container pad-y">
+          <!-- Search Box -->
+          <div class="search-box-row">
+            <div class="row search-box">
+              <input
+                class="form-control mr-sm-2 col-md-8"
+                type="search"
+                placeholder="Shorten a link here ..."
+                aria-label="Search"
+                id="shortenInput"
+              />
+              <button
+                id="shortenBtn"
+                class="btn my-2 my-sm-0 col-md-3"
+                type="submit"
+                onclick="changePlaceHoldercolor()"
+              >
+                Shorten it!
+              </button>
+            </div>
+          </div>
+          <!-- End Search Box -->
+
+          <!-- Start Title -->
+          <h1>Advanced Statistics</h1>
+          <p class="p-desktop">
+            Track how your links are performing across the web with
+            <span class="new-line">our advanced statistics dashboard.</span>
+          </p>
+          <p class="p-mobile">
+            Track how your links are performing
+            <span class="new-line"> across the web with our advanced</span>
+            statistics dashboard.
+          </p>
+          <!-- End Title -->
+          <div class="row hr-row">
+            <hr class="hr-line" />
+          </div>
+          <div class="row vl-row">
+            <div class="vl"></div>
+          </div>
+          <div class="row boxes-row justify-content-md-center">
+            <div class="col col-md-4 col-12 mt-mobile-1">
+              <div class="box">
+                <div class="circle">
+                  <img src="images/icon-brand-recognition.png" alt="" />
+                </div>
+                <h3>Brand Recognition</h3>
+                <p>
+                  Boost your brand recognition with
+                  <span class="new-line"
+                    >each click. Generic links don't mean a</span
+                  >
+                  <span class="new-line">thing. Branded links help istill</span>
+                  <span class="new-line">confidence in your content.</span>
+                </p>
+              </div>
+            </div>
+            <div class="col col-md-4 col-12 mt-mobile-2">
+              <div class="box marg-top-10">
+                <div class="circle">
+                  <img src="images/icon-detailed-records.png" alt="" />
+                </div>
+                <h3>Detailed Records</h3>
+                <p>
+                  Gain insights into who is clicking your
+                  <span class="new-line">links. Knowing when and where</span>
+                  <span class="new-line">people engage with your content</span>
+                  <span class="new-line">helps inform better decisions.</span>
+                </p>
+              </div>
+            </div>
+            <div class="col col-md-4 col-12">
+              <div class="box ml-auto marg-top-20">
+                <div class="circle">
+                  <img
+                    class="h-w-48"
+                    src="images/icon-fully-customizable.png"
+                    alt=""
+                  />
+                </div>
+                <h3>Fully Customizable</h3>
+                <p>
+                  improve brand awareness and
+                  <span class="new-line">content discoverability through</span>
+                  <span class="new-line"
+                    >customizable links. supercharging</span
+                  >
+                  <span class="new-line">audience engagement.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Advanced Section -->
+
+      <!-- Start Boost Section -->
+      <section id="boostSection">
+        <div class="container py-5">
+          <h1>Boost your links today</h1>
+          <button class="btn">Get Started</button>
+        </div>
+      </section>
+      <!-- End Boost Section -->
+
+      <!-- Start Footer -->
+      <footer class="page-footer font-small pt-4">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left py-5">
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 mt-md-0 mt-3">
+              <!-- Content -->
+              <h4>Shortly</h4>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 mb-md-0 mb-3">
+              <!-- Links -->
+              <h5>Features</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Link Shortening</a>
+                </li>
+                <li>
+                  <a href="#!">Branded Links</a>
+                </li>
+                <li>
+                  <a href="#!">Analytics</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 mb-md-0 mb-3">
+              <!-- Links -->
+              <h5>Resources</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Blog</a>
+                </li>
+                <li>
+                  <a href="#!">Developers</a>
+                </li>
+                <li>
+                  <a href="#!">Support</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 mb-md-0 mb-3">
+              <!-- Links -->
+              <h5>Company</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">About</a>
+                </li>
+                <li>
+                  <a href="#!">Our Team</a>
+                </li>
+                <li>
+                  <a href="#!">Careers</a>
+                </li>
+                <li>
+                  <a href="#!">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-3 col-md-0 mb-3 text-md-right">
+              <!-- Facebook -->
+              <a class="icon">
+                <img src="images/icon-facebook.png" alt="facebook" />
+              </a>
+              <!-- Twitter -->
+              <a class="icon">
+                <img src="images/icon-twitter.png" alt="twitter" />
+              </a>
+              <!-- Pinterest -->
+              <a class="icon">
+                <img src="images/icon-pinterest.png" alt="pinterest" />
+              </a>
+              <!--Instagram-->
+              <a class="icon">
+                <img src="images/icon-instagram.png" alt="instagram" />
+              </a>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+      </footer>
+      <!-- End Footer -->
+    </main>
+    <!-- END of Main -->
+
+    <!-- Optional JavaScript -->
+    <script src="index.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

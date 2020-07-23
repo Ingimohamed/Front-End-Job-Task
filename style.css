@@ -1,0 +1,485 @@
+nav {
+  padding: 1.5% !important;
+}
+@media (max-width: 991px) {
+  nav .container .navbar-collapse {
+    background: #333366;
+    border-radius: 11px;
+    padding: 28px;
+    text-align: center;
+  }
+}
+nav .container .navbar-collapse ul.mr-auto .active {
+  color: black !important;
+  outline: none !important;
+  border: none;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  nav .container .navbar-collapse ul.mr-auto .active {
+    color: #33cccc !important;
+  }
+}
+nav .container .navbar-collapse ul.mr-auto li a {
+  color: #999999 !important;
+  margin-left: 15px;
+  font-weight: 500;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  nav .container .navbar-collapse ul.mr-auto li a {
+    margin: 0px;
+    color: white !important;
+  }
+}
+nav .container .navbar-collapse ul.mr-auto li a:focus,
+nav .container .navbar-collapse ul.mr-auto li a:hover {
+  color: black !important;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  nav .container .navbar-collapse ul.mr-auto li a:focus,
+nav .container .navbar-collapse ul.mr-auto li a:hover {
+    color: #33cccc !important;
+  }
+}
+nav .container .navbar-collapse hr {
+  display: none;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  nav .container .navbar-collapse hr {
+    display: block;
+  }
+}
+nav .container .navbar-collapse ul.ml-auto li .loginBtn {
+  border: none;
+  color: #999999;
+  background: transparent;
+  font-weight: 500;
+  outline: none !important;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  nav .container .navbar-collapse ul.ml-auto li .loginBtn {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+}
+nav .container .navbar-collapse ul.ml-auto li .loginBtn:focus,
+nav .container .navbar-collapse ul.ml-auto li .loginBtn:hover {
+  color: black;
+  border: none;
+  outline: none !important;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  nav .container .navbar-collapse ul.ml-auto li .loginBtn:focus,
+nav .container .navbar-collapse ul.ml-auto li .loginBtn:hover {
+    color: #33cccc;
+  }
+}
+nav .container .navbar-collapse ul.ml-auto li .signupBtn {
+  width: 100px;
+  background: #33cccc;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  outline: none !important;
+  font-weight: 500;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  nav .container .navbar-collapse ul.ml-auto li .signupBtn {
+    width: 100%;
+  }
+}
+nav .container .navbar-toggler {
+  border: none !important;
+}
+nav .container .navbar-toggler:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+/*----         main       -----*/
+/*----         Header section       -----*/
+main #headerSection {
+  overflow: hidden;
+  position: relative;
+}
+main #headerSection .pad-y {
+  padding-top: 11%;
+  padding-bottom: 12%;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #headerSection .pad-y {
+    padding-bottom: 32%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #headerSection .container .row-mobile {
+    flex-direction: column-reverse;
+    padding-top: 28%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #headerSection .container .row .col-img-mobile {
+    height: 315px;
+    width: 590px;
+  }
+}
+main #headerSection .container .row h1 {
+  font-weight: bold;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #headerSection .container .row h1 {
+    font-size: 3.4rem;
+    text-align: center;
+    line-height: 1.1;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  main #headerSection .container .row h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  main #headerSection .container .row h1 {
+    font-size: 2.5rem;
+  }
+}
+main #headerSection .container .row h1 .new-line {
+  display: block;
+}
+main #headerSection .container .row p {
+  color: #999999;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #headerSection .container .row p {
+    text-align: center;
+  }
+}
+main #headerSection .container .row p .new-line {
+  display: block;
+}
+main #headerSection .container .row .getstartedBtn {
+  width: 188px;
+  font-size: 21px;
+  height: 54px;
+  background: #33cccc;
+  border: none;
+  color: white;
+  border-radius: 27px;
+  outline: none;
+  font-weight: 500;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #headerSection .container .row .getstartedBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+main #headerSection .container .row .width {
+  position: absolute;
+  right: -36%;
+  top: -40%;
+  width: 122.1%;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #headerSection .container .row .width {
+    right: -8%;
+    top: -40%;
+    width: 103.1%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  main #headerSection .container .row .width {
+    width: 110.1%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  main #headerSection .container .row .width {
+    width: 111.1%;
+  }
+}
+main #advancedSection {
+  background-color: #f0f1f6;
+}
+main #advancedSection .pad-y {
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+}
+main #advancedSection .container .search-box-row {
+  height: 134px;
+  position: relative;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  main #advancedSection .container .search-box-row {
+    height: 109px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  main #advancedSection .container .search-box-row {
+    height: 107px;
+  }
+}
+main #advancedSection .container .search-box-row .row.search-box {
+  position: absolute;
+  height: auto;
+  width: 91%;
+  background-color: #333366;
+  background-image: url("/images/bg-shorten-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3%;
+  border-radius: 10px;
+  top: -76%;
+  left: 2%;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  main #advancedSection .container .search-box-row .row.search-box {
+    top: -89%;
+    left: 5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  main #advancedSection .container .search-box-row .row.search-box {
+    top: -86%;
+    left: 6%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #advancedSection .container .search-box-row .row.search-box {
+    top: -90%;
+    left: 10%;
+  }
+}
+main #advancedSection .container .search-box-row .row.search-box button {
+  background: #33cccc;
+  border: none;
+  color: white;
+  outline: none;
+  font-weight: 500;
+  margin: auto;
+  height: 57px;
+  border-radius: 5px;
+}
+main #advancedSection .container .search-box-row .row.search-box input {
+  margin: auto;
+  height: 57px;
+  border-radius: 5px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  main #advancedSection .container .search-box-row .row.search-box input {
+    margin-bottom: 10px;
+    margin-right: 0 !important;
+  }
+}
+main #advancedSection .container h1 {
+  text-align: center;
+  font-weight: bold;
+}
+main #advancedSection .container .p-desktop {
+  text-align: center;
+  color: #999999;
+}
+main #advancedSection .container .p-desktop .new-line {
+  display: block;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #advancedSection .container .p-desktop {
+    display: none;
+  }
+}
+main #advancedSection .container .p-mobile {
+  display: none;
+  text-align: center;
+  color: #999999;
+}
+main #advancedSection .container .p-mobile .new-line {
+  display: block;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #advancedSection .container .p-mobile {
+    display: block;
+  }
+}
+main #advancedSection .container .row.hr-row {
+  position: relative;
+  z-index: 1;
+  top: 131px;
+}
+main #advancedSection .container .row.hr-row hr.hr-line {
+  border-top: 4px solid #33cccc;
+  width: 96%;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #advancedSection .container .row.hr-row hr.hr-line {
+    display: none;
+  }
+}
+main #advancedSection .container .row.vl-row {
+  position: relative;
+  z-index: 1;
+  display: none;
+}
+main #advancedSection .container .row.vl-row .vl {
+  border-left: 6px solid #33cccc;
+  height: 801px;
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  top: 20px;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #advancedSection .container .row.vl-row {
+    display: block;
+  }
+}
+main #advancedSection .container .row.boxes-row {
+  z-index: 2;
+  position: relative;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #advancedSection .container .row.boxes-row .mt-mobile-1 {
+    margin-top: 14%;
+  }
+  main #advancedSection .container .row.boxes-row .mt-mobile-2 {
+    margin-top: 10%;
+  }
+}
+main #advancedSection .container .row.boxes-row .marg-top-10 {
+  margin-top: 10%;
+}
+main #advancedSection .container .row.boxes-row .marg-top-20 {
+  margin-top: 20%;
+}
+main #advancedSection .container .row.boxes-row .box {
+  background: white;
+  height: auto;
+  width: auto;
+  padding: 15% 10% 10% 10%;
+  border-radius: 10px;
+  position: relative;
+}
+main #advancedSection .container .row.boxes-row .box .circle {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background: #333366;
+  border-radius: 50%;
+  top: -20%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  main #advancedSection .container .row.boxes-row .box .circle {
+    top: -20%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #advancedSection .container .row.boxes-row .box .circle {
+    left: 50%;
+    margin-left: -40px;
+  }
+}
+main #advancedSection .container .row.boxes-row .box .circle img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  /* Half the height */
+  margin-left: -20px;
+  /* Half the height */
+}
+main #advancedSection .container .row.boxes-row .box .circle .h-w-48 {
+  margin-top: -24px !important;
+  /* Half the height */
+  margin-left: -24px !important;
+  /* Half the width */
+}
+main #advancedSection .container .row.boxes-row .box h3 {
+  font-weight: bold;
+  text-align: left;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  main #advancedSection .container .row.boxes-row .box h3 {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  main #advancedSection .container .row.boxes-row .box h3 {
+    font-size: 19px;
+  }
+}
+main #advancedSection .container .row.boxes-row .box p {
+  color: #999999;
+  text-align: left;
+}
+main #advancedSection .container .row.boxes-row .box p .new-line {
+  display: block;
+}
+main #boostSection {
+  background-color: #333366;
+  background-image: url("/images/bg-boost-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #boostSection {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
+main #boostSection .container h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  main #boostSection .container h1 {
+    font-size: 2rem;
+    line-height: 2;
+  }
+}
+main #boostSection .container button {
+  width: 188px;
+  font-size: 21px;
+  height: 54px;
+  background: #33cccc;
+  border: none;
+  color: white;
+  border-radius: 27px;
+  outline: none;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+main footer {
+  background-color: #333333;
+  color: white;
+}
+main footer .container .row hr {
+  border-color: #333333;
+}
+main footer .container .row h4 {
+  font-weight: bold;
+}
+main footer .container .row ul li a {
+  color: white;
+  text-decoration: none;
+}
+main footer .container .row ul li a:hover {
+  color: #33cccc;
+}
+main footer .container .row a.icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  main footer .container .row a.icon {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
